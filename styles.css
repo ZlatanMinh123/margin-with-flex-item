@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  background: #f9ebc7;
+  height: 600px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item {
+  font-size: 16px;
+  font-weight: 600;
+  background: #cde9fe;
+  padding: 12px;
+  border: 1px solid #333;
+}
+
